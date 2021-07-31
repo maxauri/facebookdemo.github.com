@@ -1,0 +1,11 @@
+
+var filename = fname.replace(/^.*[\\\/]/, '');
+
+
+
+//len 
+$str = "parbat.png";
+$len = strlen($str);
+$ref = $len - 3;
+$type = substr($str, $ref);
+echo $type;

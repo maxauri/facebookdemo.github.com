@@ -1,0 +1,783 @@
+    body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+
+/*preloader*/
+
+#loading {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1000;
+    position: absolute;
+}
+
+
+/*logout-model-css*/
+
+#logout_model {
+    width: 380px;
+    position: absolute;
+    top: 59px;
+    left: 950px;
+    background-color: white;
+    border-radius: 5px/5px;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 0px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+#logout_model .row:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.navbar {
+    height: 60px;
+    box-shadow: -webkit-box-shadow: -2px -6px 9px 9px rgba(201, 191, 201, 1);
+    -moz-box-shadow: -2px -6px 9px 9px rgba(201, 191, 201, 1);
+    box-shadow: -2px -6px 9px 9px rgba(201, 191, 201, 1);
+}
+
+.navbar img:hover {
+    cursor: pointer;
+}
+
+#fb_logo {
+    margin-top: 0px;
+    margin-left: -5px;
+}
+
+#back {
+    width: 20px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#search_bar {
+    padding: 8px;
+    padding-left: 50px;
+    margin-right: 190px;
+    margin-left: -13px;
+    width: 240px;
+    border-color: 0px #EAEDED;
+    border-style: none;
+    outline-style: none;
+    border-radius: 20px/20px;
+    background-color: #EAEDED;
+    transition: all 0.4s;
+}
+
+#search_icon {
+    left: 82px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+
+#Home {}
+
+#home {
+    height: 35px;
+    margin-right: 90px;
+}
+
+#home:hover {
+    cursor: pointer;
+}
+
+#tv {
+    margin-right: 90px;
+}
+
+#tv:hover {
+    cursor: pointer;
+}
+
+#friend {
+    height: 30px;
+    width: 32px;
+    margin-right: 90px;
+}
+
+#friend:hover {
+    cursor: pointer;
+}
+
+#news {
+    height: 40px;
+    margin-right: 110px;
+}
+
+#news:hover {
+    cursor: pointer;
+}
+
+#user_profile {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border-style: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/*container*/
+
+#container {
+    margin-top: 0px;
+    background-color: #EAEDED;
+    overflow-y: hidden;
+}
+
+
+/*setting section1*/
+
+.setting {
+    /*background-color: red; */
+    overflow-y: hidden;
+}
+
+.setting:hover {
+    overflow-y: hidden;
+}
+
+.setting::-webkit-scrollbar {
+    width: 8px;
+    background-color: #CCD1D1;
+}
+
+.setting .row .col-md-10 h6 {
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.setting #groups {
+    padding-bottom: 0px;
+    border-bottom: 1px solid #B2BABB;
+}
+
+.setting .container:hover {
+    background-color: #D5E2E3;
+    border-radius: 10px;
+}
+
+
+/*shortcuts*/
+
+.setting .shortcuts .row:hover {
+    background-color: #D5E2E3;
+    border-radius: 10px;
+}
+
+
+/*newsfeed section2*/
+
+.newsfeed {
+    /*height: 200px;*/
+    /*background-color: black;*/
+    overflow-y: scroll;
+}
+
+.newsfeed::-webkit-scrollbar {
+    width: 8px;
+    background-color: #CCD1D1;
+}
+
+.newsfeed .story .row {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.newsfeed .story .row .col-md-3:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.newsfeed .story .row .col-md-3 #user_profile_pic {
+    top: 8px;
+    left: 30px;
+    height: 35px;
+    width: 35px;
+    border: 3px solid blue;
+    position: absolute;
+}
+
+.story .row .s1 div {
+    height: 200px;
+    width: 130px;
+    box-shadow: -webkit-box-shadow: 3px 7px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 7px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 7px 5px -6px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#create_story_icon {
+    top: 110px;
+    left: 60px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    box-shadow: none;
+    position: absolute;
+}
+
+.s1 #create_story {
+    height: 130px;
+    width: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: none;
+    opacity: 1;
+}
+
+.s2 {
+    margin-left: -10px;
+}
+
+.s3 {
+    margin-left: -10px;
+}
+
+.s4 {
+    margin-left: -10px;
+}
+
+#next_icon {
+    top: 40%;
+    left: 76%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 100%;
+    opacity: 1;
+}
+
+.newsfeed .story .row .col-md-3 img {
+    height: 200px;
+    width: 130px;
+    border-radius: 10px/10px;
+    opacity: 0.9;
+    box-shadow: -webkit-box-shadow: 3px 7px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 7px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 7px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+.newsfeed .story .row .col-md-3 #story_title {
+    width: 80%;
+    top: 78%;
+    left: 5%;
+    font-size: 14px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+/*statusbar*/
+
+.statusbar {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 59px;
+    min-height: 50px;
+    width: 510px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.statusbar #user_profile_pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.statusbar_btm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    /*background-color: red;*/
+}
+
+.statusbar .input {
+    margin: 0;
+    width: 100%;
+    border-bottom: 1px solid #B2BABB;
+}
+
+#statusbar_input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-left: -30px;
+    width: 400px;
+    height: 39px;
+    border-radius: 30px;
+    border: 1px solid #EAEDED;
+    outline-style: none;
+    background-color: #EAEDED;
+}
+
+#statusbar_input:hover {
+    cursor: pointer;
+}
+
+.statusbar_btm .col-md-4 h6 {
+    top: 5px;
+    position: absolute;
+}
+
+.statusbar_btm .col-md-4:hover {
+    background-color: #EAEDED;
+    border-radius: 10px/10px;
+}
+
+
+/*post*/
+
+.card {
+    margin-left: 35px;
+    min-height: 200px;
+    width: 530px;
+    border-radius: 10px;
+    transform: scale(0.95);
+    box-shadow: -webkit-box-shadow: 3px 7px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 7px 5px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 7px 5px -6px rgba(0, 0, 0, 0.75);
+    transition: 0.3s;
+}
+
+.card .card-head #user_profile_pic {
+    margin-top: 3px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#user_profile_pic {
+    height: 30px;
+    width: 32px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.card .card-head h6 {
+    top: 10px;
+    left: 50px;
+    position: absolute;
+}
+
+.card .card-head #time {
+    top: 29px;
+    left: 50px;
+    font-size: 13px;
+    position: absolute;
+}
+
+.card .card-head #caption {
+    margin-bottom: -5px;
+    text-align: justify-all;
+}
+
+.card .card-body {
+    border-radius: 10px;
+}
+
+.card .card-body .like {
+    border-top: 1px solid #B2BABB;
+    border-bottom: 1px solid #B2BABB;
+}
+
+.card .card-body h6 {
+    position: absolute;
+    top: 8px;
+    left: 30%;
+}
+
+.card .card-body .col-md-4 {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card .card-body .col-md-4:hover {
+    background-color: #F4F6F6;
+    cursor: pointer;
+}
+
+.comment_section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    height: 37px;
+    width: 400px;
+    border-color: #F4F6F6;
+    border-radius: 50px;
+    outline-style: none;
+    overflow: hidden;
+    background-color: #F4F6F6;
+}
+#cmnt_send{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    background: url("../img/send.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0px solid white;
+    outline-style: none;
+    cursor: pointer;
+    transform: translate(410px,-33px);
+    /*visibility: hidden; */
+}
+#post_id{
+    visibility: hidden;
+    position: absolute;
+}
+.newsfeed .card-body .allCmnt{
+    visibility: hidden;     
+    position: absolute;    
+}
+.newsfeed .hideCmnt{
+    margin-left: -150px;
+}
+
+#comment_material {
+    top: 9px;
+    left: 285px;
+    position: absolute;
+}
+
+#comment_material i {
+    padding-left: 12px;
+    color: #B2BABB;
+}
+
+#comment_material i:hover {
+    cursor: pointer;
+    color: red;
+}
+ .commentText{
+    width: 500px;
+    /*background-color: red;*/
+ }
+ .commentText .col-md-10{
+    margin-left: -20px;
+    background-color: #F4F6F6;
+    border-color: #F4F6F6;
+    border-radius: 10px;
+    outline-style: none;
+    overflow: hidden;
+ }
+ .commentText .col-md-10 h6{
+    left:10px;
+    position: absolute;
+ }
+.commentText .col-md-10 p{
+        color:#6A6969 ;
+}
+/* active userlist  */
+
+.ative_user_list {
+    /*height: 710px;*/
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ative_user_list .contact_head .col-md-2:hover {
+    cursor: pointer;
+}
+
+.ative_user_list:hover {
+    overflow-y: scroll;
+}
+
+.ative_user_list::-webkit-scrollbar {
+    width: 8px;
+    background-color: #CCD1D1;
+}
+
+.active_profile:hover {
+    background-color: #E5E8E8;
+    border-radius: 10px;
+}
+
+
+/*opacity cover curtains*/
+
+.curtains {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: #CCD1D1;
+    opacity: 0.6;
+    visibility: hidden;
+    /* Event parameter*/
+}
+
+
+/*dialog post form model*/
+
+.model_form {
+    top: 30px;
+    left: 400px;
+    width: 550px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 12px 0px rgba(8, 4, 8, 1);
+    -moz-box-shadow: 0px 1px 12px 0px rgba(8, 4, 8, 1);
+    box-shadow: 0px 1px 12px 0px rgba(8, 4, 8, 1);
+    visibility: hidden;
+    /* Event parameter*/
+}
+
+.create_post .col-md-2 {
+    border-bottom: 1px solid #CCD1D1;
+}
+
+#cancel_post:hover {
+    cursor: pointer;
+}
+
+#input_area {
+    overflow-y: hidden;
+    height: 200px;
+}
+
+#tag {
+    border-radius: 10px;
+    background-color: #C9CFCF;
+}
+
+#tag:hover {
+    cursor: pointer;
+}
+
+#post_textarea {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    outline-style: none;
+    border: 1px solid white;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.emoji .col-md-2 i {
+    font-size: 25px;
+}
+
+#colorMap {
+    border-radius: 5px;
+}
+
+.tag_container {
+    border: 0.1px solid #CCD1D1;
+    border-radius: 10px;
+}
+
+.post_btn {
+    height: 40px;
+    width: 100%;
+    border: 0.5px solid #f1f1f1;
+    border-radius: 10px;
+}
+
+.icon .col-md-1 img:hover {
+    cursor: pointer;
+}
+
+
+/*SignIn or SignUp*/
+
+.login .row .col-md-5 #form {
+    box-shadow: -webkit-box-shadow: 0px -1px 10px 0px rgba(168, 168, 168, 1);
+    -moz-box-shadow: 0px -1px 10px 0px rgba(168, 168, 168, 1);
+    box-shadow: 0px -1px 10px 0px rgba(168, 168, 168, 1);
+}
+
+.login .row .col-md-7 h1 {
+    font-weight: bolder;
+}
+
+.login .row .col-md-7 .card:hover {
+    cursor: pointer;
+    box-shadow: -webkit-box-shadow: 0px -1px 10px 0px rgba(168, 168, 168, 1);
+    -moz-box-shadow: 0px -1px 10px 0px rgba(168, 168, 168, 1);
+    box-shadow: 0px -1px 10px 0px rgba(168, 168, 168, 1);
+}
+
+.login .row .col-md-5 #form {
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login .row .col-md-5 #form .row input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 8px;
+    outline-style: all;
+    outline-color: #56A0EB;
+    border: 0.3px solid #CCD1D1;
+}
+
+.login .row .col-md-5 #form .row button {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#createNewAccount {
+    height: 45px;
+    padding-top: 10px;
+    font-weight: bolder;
+    width: 60%;
+    background-color: #0CC206;
+    color: white;
+}
+
+#model {
+    top: 70px;
+    left: 500px;
+    margin-bottom: 50px;
+    min-height: 400px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 4;
+    box-shadow: -webkit-box-shadow: 0px -1px 10px 0px rgba(168, 168, 168, 1);
+    -moz-box-shadow: 0px -1px 10px 0px rgba(168, 168, 168, 1);
+    box-shadow: 0px -1px 10px 0px rgba(168, 168, 168, 1);
+}
+
+#model #p {
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+#model .row .col-md-6 input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #708080;
+}
+
+#model .row .col-md-12 input {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    border: 1px solid #708080;
+}
+
+#model #birthdate {
+    margin-top: -22px;
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5E6C6C;
+    position: absolute;
+}
+
+#model .row .dropdown .dropdown-toggle {
+    color: black;
+    width: 130px;
+    border: 1px solid #CCD1D1;
+}
+
+#model #terms {
+    padding: 10px;
+    font-size: 10px;
+    font-family: arial;
+}
+
+#model #gender .col-md-4 .radio {
+    border: 1px solid #CCD1D1;
+    border-radius: 5px;
+}
+
+#model #gender .col-md-4 .radio input {
+    top: 10px;
+    left: 100px;
+    position: absolute;
+}
+
+#model #gender .col-md-4 .radio label {
+    top: 3px;
+    left: 10px;
+    position: relative;
+}
+
+#model #createNewAccount {
+    margin-left: 70px;
+}
+
+.re_login_form {
+    top: 60px;
+    left: 500px;
+    position: absolute;
+    z-index: 1;
+}
+
+#re_login_form {
+    height: 450px;
+    width: 350px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#re_login_form #cancel {
+    margin-top: -10px;
+    left: 300px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#re_login_form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 8px;
+    outline-style: all;
+    outline-color: #56A0EB;
+    border: 0.3px solid #CCD1D1;
+}
+
+#re_login_form button {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+}
